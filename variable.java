@@ -15,10 +15,10 @@ public class variable {
     public static void main(String[] args) {
         // int --> stores integers
 
-        int age; // declaration of variable
+        int age = 22; // declaration and initialization of variable
         int new_age = 24; // assignment of variable
 
-        System.out.println("The age is " + new_age);
+        System.out.println("The age is " + age + " and the new age is " + new_age);
 
         // double --> stores a decimal value
 
@@ -32,6 +32,7 @@ public class variable {
         char grade = 'A';
         char currency = '$';
 
+        System.out.println("The grade is " + grade);
         System.out.println("The currency mode is " + currency);
 
         // boolean --> either true or false 
@@ -41,6 +42,8 @@ public class variable {
         boolean isOnline = true;
 
         System.out.println(isStudent);
+        System.out.println("For sale: " + forSale);
+        System.out.println("Is online: " + isOnline);
 
         // String --> Chain/Series of characters (Reference Data Type)
 
