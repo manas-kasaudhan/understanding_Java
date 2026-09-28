@@ -1,3 +1,5 @@
+package basics01 ;
+
 // variable --> a reusable container for a value
 
 // Primitive --> simple value stored directly in memory (stack)

@@ -1,4 +1,6 @@
+package basics01 ;
 import java.util.Scanner;
+
 public class madlibs {
 
 public static void main(String[] args) {
